@@ -7,16 +7,16 @@ import Skills from "./components/Skills";
 function App() {
   return (
     <div className=" z-50 relative overflow-hidden">
-      // <video
-      //   className="h-full  -z-50 md:scale-125 scale-[4] fixed  md:w-full opacity-25"
-      //   controls
-      //   autoPlay
-      //   loop
-      //   muted
-      //   playsInline
-      //   src="bg_video.mp4"
-      //   type="video/mp4"
-      // ></video>
+      <video
+        className="h-full  -z-50 md:scale-125 scale-[4] fixed  md:w-full opacity-25"
+        controls
+        autoPlay
+        loop
+        muted
+        playsInline
+        src="bg_video.mp4"
+        type="video/mp4"
+      ></video>
       <div>
         <Nav />
       </div>
